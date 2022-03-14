@@ -4,6 +4,7 @@ import Navbar from './Layout/Navbar'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
+    const hello = 'hello'
     return (
         <div className="App ">
             <BrowserRouter>
